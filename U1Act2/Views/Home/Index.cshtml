@@ -1,0 +1,22 @@
+﻿@model decimal;
+@{
+    Layout = "Layout";
+}
+<div class="contenedor">
+    <div class="imagenUSA"></div>
+    <form method="post" action="~/Home/Index">
+        <input type="number" name="Cantidad" placeholder=""/>
+        <br/>
+        <label>
+            <input type="radio" name="Moneda" value="Pesos"/>
+            Pesos
+        </label>
+        <label>
+            <input type="radio" name="Moneda" value="Dolar"/>
+            Dolar
+        </label>
+        <input type="submit"/>
+        <label>Cantidad: @String.Format("{0:c}",Model)</label>
+    </form>
+    <div class="imagenMX"></div>
+</div>

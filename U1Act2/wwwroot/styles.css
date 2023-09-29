@@ -1,0 +1,32 @@
+﻿body
+{
+    background-color: #F5EFE6;
+    padding: 0;
+    margin: 0;
+}
+form 
+{
+    background-color: #E8DFCA;
+    width:340px;
+    height:240px;
+}
+.imagenUSA
+{
+    background:url(Images/EU.jpeg);
+    height:340px;
+    width:350px;
+}
+.imagenMX
+{
+    background:url(Images/Mexico.jpeg);
+    height: 350px;
+    width: 450px;
+}
+.contenedor
+{
+    text-align:center;
+    margin-top:10%;
+    display:flex;
+    align-content:center;
+    align-items:center;
+}
